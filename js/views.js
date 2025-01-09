@@ -2,19 +2,19 @@ import { queryEl, hideEl, showEl } from "./helpers.js";
 
 // Views
 const [
-    introView, 
-    startView, 
-    helpView, 
-    mainView, 
+    introView,
+    startView,
+    helpView,
+    mainView,
     errorView,
     settDataView,
     mainDataView,
     closeBtn
 ] = [
-    '#introView', 
-    '#startView', 
-    '#helpView', 
-    '#mainView', 
+    '#introView',
+    '#startView',
+    '#helpView',
+    '#mainView',
     '#errorView',
     '#settDataView',
     '#mainDataView',
@@ -22,7 +22,7 @@ const [
 ].map(id => queryEl(id));
 
 // Switch Views
-export const switchViewTo = function(view) {
+export const switchViewTo = function (view) {
     switch (view) {
         case 'intro':
             // hide
@@ -55,7 +55,7 @@ export const switchViewTo = function(view) {
             showEl(errorView);
             break;
 
-        case 'open-settings':   
+        case 'open-settings':
             // Go to Settings
             showEl(settDataView);
             // hide Input box
@@ -63,8 +63,8 @@ export const switchViewTo = function(view) {
             // Show Closing btn
             showEl(closeBtn);
             break;
-        
-        case 'close-settings':   
+
+        case 'close-settings':
             // Hide Settings
             hideEl(settDataView);
             // Show Input box
@@ -72,7 +72,7 @@ export const switchViewTo = function(view) {
             // Hide Closing btn
             hideEl(closeBtn);
             break;
-    
+
         default:
             break;
     }

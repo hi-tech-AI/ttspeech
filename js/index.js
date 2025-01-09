@@ -18,8 +18,8 @@ const [
 
 // Show Intro with Help
 startBtn.addEventListener('click', function () {
-   // help & settings
-   switchViewTo('help');
+    // help & settings
+    switchViewTo('help');
 });
 
 // Main View
