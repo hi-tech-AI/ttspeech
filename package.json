@@ -8,13 +8,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/henryhale/ttspeech.git"
+    "url": "git+https://github.com/hi-tech-AI/ttspeech.git"
   },
   "keywords": [],
   "author": "Henry Hale",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/henryhale/ttspeech/issues"
+    "url": "https://github.com/hi-tech-AI/ttspeech/issues"
   },
-  "homepage": "https://github.com/henryhale/ttspeech#readme"
+  "homepage": "https://github.com/hi-tech-AI/ttspeech#readme"
 }
